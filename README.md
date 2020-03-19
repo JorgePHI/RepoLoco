@@ -6,7 +6,7 @@ Prueba de modificacion de readme desde github
 
 djaksldjlaksd (leanGbot)
 
-f (nachoscocco)
+f PARTE 2 (nachoscocco)
 
 lalalala (eli)
 
