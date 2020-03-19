@@ -4,9 +4,9 @@
 
 Prueba de modificacion de readme desde github
 
-djaksldjlaksd (leanGbot)
+djaksldjlaksd (leanGbot)    aca toy :D
 
-f PARTE 2 (nachoscocco)
+f PARTE 2 (nachoscocco) 
 
 lalalala (eli)
 
