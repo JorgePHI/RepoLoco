@@ -13,4 +13,8 @@ lalalala (eli)
 aashjasduhasdhjk(franco)
 Tic Tac (Douv :))
 
+<<<<<<< HEAD
+PRUEBA
+=======
 var newComment = "Aca estoy yo - (riverodanielesteban)";
+>>>>>>> b634fbefb71554948699871d292104c2cb7d0a82
