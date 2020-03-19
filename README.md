@@ -4,7 +4,7 @@
 
 Prueba de modificacion de readme desde github
 
-djaksldjlaksd (leanGbot)    aca toy :D
+djaksldjlaksd (leanGbot)    Franco estuvo aquí
 
 f PARTE 2 (nachoscocco) 
 
