@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora</title>
+	<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+	<style type="text/css">
+		*{
+			margin: auto;
+			padding: 0px;
+		}
+		.container{
+			position: relative;
+			top: 100px;
+		}
+		.result{
+			font-size: 30px;
+			font-family: Arial,Helvetica;
+			color: white;
+			border: 0px;
+			background: black;
+			width: 325px;
+			height: 80px;
+			text-align: right;
+		}
+		.column1{
+			font-size: 30px;
+			font-family: Arial,Helvetica;
+			color: black;
+			border: 0px;
+			background: #D6CFC9;
+			width: 80px;
+			height: 80px;
+		}
+		.column2{
+			font-size: 30px;
+			font-family: Arial,Helvetica;
+			color: white;
+			border: 0px;
+			background: #FF821C;
+			width: 80px;
+			height: 80px;
+		}
+		#zero{
+			width: 162px;
+		}
+		.file{
+			font-size:30px;
+			font-family: Arial,Helvetica;
+			color:black;
+			border:0px;
+			background:#C9BDB3;
+			width:80px;
+			height:80px;
+		}
+		table{
+			background:#7E7E7D;
+		}
+		td input:active{
+			background:#fff;
+		}
+		h1{
+			position: relative;
+			color: green;
+			text-align: center;
+			font-family: 'Pacifico', cursive;
+			top: 40px;
+		}
+	</style>
+</head>
+<body onload="init();">
+	
+	<div class="container">
+		<form>
+			<table>
+				<tr>
+					<td colspan="4"><input class="result" id="resultat" value=""></td>
+				</tr>
+				<tr>
+					<td><input class="file" id="reset" type="button" value="AC"></td>
+					<td><input class="file" id="backspace" type="button" value="←"></td>
+					<td><input class="file" id="porcentaje" type="button" value="%"></td>
+					<td><input class="column2" id="divide" type="button" value="÷"></td>
+				</tr>
+				<tr>
+					<td><input class="column1" id="number7" type="button" value="7"></td>
+					<td><input class="column1" id="number8" type="button" value="8"></td>
+					<td><input class="column1" id="number9" type="button" value="9"></td>
+					<td><input class="column2" id="multiplication" type="button" value="*"></td>
+				</tr>
+				<tr>
+					<td><input class="column1" id="number4" type="button" value="4"></td>
+					<td><input class="column1" id="number5" type="button" value="5"></td>
+					<td><input class="column1" id="number6" type="button" value="6"></td>
+					<td><input class="column2" id="soustraction" type="button" value="-"></td>
+				</tr>
+				<tr>
+					<td><input class="column1" id="number3" type="button" value="3"></td>
+					<td><input class="column1" id="number2" type="button" value="2"></td>
+					<td><input class="column1" id="number1" type="button" value="1"></td>
+					<td><input class="column2" id="add" type="button" value="+"></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input class="column1" id="zero" type="button" value="0"></td>
+					<td><input class="column1" id="virgule" type="button" value="."></td>
+					<td><input class="column2" id="igual" type="button" value="="></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+<script src="funcionalidad.js"></script>
+</body>
+</html>
